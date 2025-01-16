@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Visual Experience</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.js"></script>
+</head>
+<body>
+  <div class="controls">
+    <label for="particle-count">Particles:</label>
+    <input type="range" id="particle-count" min="10" max="300" value="100">
+
+    <label for="color-picker">Color:</label>
+    <input type="color" id="color-picker" value="#ffffff">
+
+    <button id="clear-btn">Clear Canvas</button>
+    <button id="save-btn">Save Image</button>
+  </div>
+  <div id="canvas-container"></div>
+  <script src="script.js"></script>
+</body>
+</html>
